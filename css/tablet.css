@@ -1,0 +1,125 @@
+@media screen and (max-width: 960px) {
+	div#content{ 
+	margin-top:65px!important; 
+	padding-bottom:90px; 
+	position:relative; 
+	height:459px!important;
+	width:960px;
+	margin-left:17px
+	}
+	div#header { 
+		min-width: 800px;
+	}
+        div#bg2 {
+	background-repeat: no-repeat;
+	background-size: 960px;
+	}
+	div#content > ul > li{
+	width:830px;
+	margin-left:50px;
+	height:430px!important;
+	overflow-y:scroll;	
+	}
+	div.gallery_big_img {
+	position: relative;
+	width: 100%;
+	height: 355px;
+	margin-top: 10px;
+	display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	div#content {
+	margin-top: 50px!important;
+	padding-bottom: 90px;
+	position: relative;
+	height: 412px!important;
+	width: 768px;
+	}
+	div#header { 
+		min-width: 683px;
+		
+	}
+        div#bg2 {
+	background-repeat: no-repeat;
+	background-size: 768px;
+	}
+	div#content > ul > li{
+	width:670px;
+	margin-left:25px;
+	height:400px!important;
+	overflow-y: scroll;	
+	} 
+	div.bx-wrapper{
+	width:610px;
+	} 
+	div#menu1{
+	height:86px;
+	}
+	ul#icon{
+	margin-top:-13px;	
+	}
+	div.gallery_big_img {
+	position: relative;
+	width: 100%;
+	height: 355px;
+	margin-top: 10px;
+	display: none;
+	}        
+
+}
+
+@media screen and (max-width: 480px) {
+	div#ccon{
+	height:135px!important;
+	}
+	div#content {
+	margin-top: 70px!important;
+	padding-bottom: 90px;
+	position: relative;
+	height: 266px!important;
+	width: 480px;
+	}
+	div#header { 
+	min-width:427px;	
+	}
+	div#bg2 {
+	background-repeat: no-repeat;
+	background-size: 480px;
+	height:394px;
+	margin-top:140px!important;
+	background-position-y: 42px;
+	}
+	div.bx-wrapper{
+	width:205px;
+	} 
+	div.main{
+	width:480px;
+	}
+	div#content > ul > li{
+	width: 403px;
+	margin-left: 6px;
+	margin-top: -25px;
+	top: 72px!important;
+	display: block;
+	position: relative!important;
+	height: 276px!important;
+	overflow-y: scroll;
+	zoom:.8;
+	}
+	div#content > h2 {
+	font: 22px 'Asap', sans-serif!important;
+	}
+	div.pad{
+	padding:10px;	
+	} 
+	div.gallery_big_img {
+	position: relative;
+	width: 100%;
+	height: 355px;
+	margin-top: 10px;
+	display: none;
+	}
+	
+}
